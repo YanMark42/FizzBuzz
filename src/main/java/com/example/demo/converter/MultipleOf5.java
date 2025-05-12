@@ -1,17 +1,17 @@
-package com.example.demo.Converter;
+package com.example.demo.converter;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class Contains3 implements Converter {
+public class MultipleOf5 implements Converter {
 
     @Override
     public boolean accept(int number) {
-        return String.valueOf(number).contains("3");
+        return number % 5 == 0;
     }
 
     @Override
     public String convert(int number) {
-        return "Fizz";
+        return "Buzz";
     }
 }

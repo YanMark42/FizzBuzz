@@ -1,4 +1,4 @@
-package com.example.demo.Converter;
+package com.example.demo.converter;
 
 public interface Converter {
     public boolean accept(int number);

@@ -1,10 +1,9 @@
-package com.example.demo.Service;
+package com.example.demo.service;
 
-import com.example.demo.Converter.*;
+import com.example.demo.converter.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
